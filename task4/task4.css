@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*
+{
+    box-sizing: border-box;
+}
+.con
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+   
+}
+.left
+{
+    flex: 50%;
+   
+    text-align: center;
+    padding-top: 125px;
+
+}
+.right
+{
+    flex: 50%;
+    
+    align-items: center;
+}
+.login
+{
+    border: 1px solid wheat;
+    border-radius: 5px;
+    background-color: white;
+    width: 375px;
+    height: 330px;
+    margin: 120px;
+    
+    padding: 10px;
+    
+}
+.forgot
+{
+    text-align: center;
+}
+.newac
+{
+    text-align: center;
+    
+}
+.text
+{
+    padding-left: 196px;
+
+}
+a:link { 
+    text-decoration: none; 
+}
+
+    
